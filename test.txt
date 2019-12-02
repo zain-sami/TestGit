@@ -2,16 +2,226 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Log in Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
   </head>
   <body>
-<form class="box" action="index.html" method="post">
-  <h1>Login</h1>
-  <input type="text" name="" placeholder="Username">
-  <input type="password" name="" placeholder="password">
-  <input type="submit" name="" value="Login">
 
-</form>
+    <!---------------------header---------------->
+    <header>
+  <div class="Whole sec-container">
+
+      <div class="logo">
+        <img src="logo.png" alt="">
+      </div>
+
+      <div class="nav">
+
+        <ul>
+        <a href="#">  <li>Mens</li> </a>
+        <a href="#">  <li>Womens</li> </a>
+        <a href="#">  <li>The Brand</li> </a>
+        <a href="#">  <li>Local Stores</li> </a>
+        <a href="#">  <li>look Book</li> </a>
+        </ul>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider">
+
+      <div class="ave">
+        <img src="AVE.png" alt="">
+
+        <div class="shop">
+          <a href="#"> shop men's collection</a>
+        </div>
+      </div>
+
+    </header>
+
+<!-------------------------------home feature-------------->
+
+
+    <div class="whole-7">
+
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#"> POPULAR </a></li>
+          <li><a href="#"> NEW ARRIVELS </a></li>
+          <li><a href="#"> BEST SELLER </a></li>
+          <li><a href="#"> SPECIAL OFFER </a></li>
+          <li><a href="#"> COMMING SOON </a></li>
+        </ul>
+      </div>
+<div class="content">
+
+      <div class="left">
+
+        <div class="item">
+          <div class="item1">
+            <img src="item1.png" alt="">
+          </div>
+          <div class="item2">
+            <img src="item23.png" alt="">
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="item3.png" alt="">
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="item3">
+          <img src="item3.png" alt="">
+        </div>
+        <div class="item">
+          <div class="item1">
+            <img src="item1.png" alt="">
+          </div>
+          <div class="item2">
+            <img src="item23.png" alt="">
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+
+<!---------------------------------sale---------------------->
+<section class="sale9">
+
+  <div class="salling9">
+
+    <div class="left9">
+      <div class="img9">
+        <img src="cada.png" alt="">
+      </div>
+      <div class="book9">
+        <h4>MEN'S <br> LOOK BOOK</h4>
+        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
+        <div class="btn9">
+          <a href="#"> VIEW NOW  </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="middle9">
+      <div class="img9">
+        <img src="811L5GmIIj.png" alt="">
+      </div>
+      <div class="book9">
+        <h4>WOMEN'S <br> LOOK BOOK</h4>
+        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
+        <div class="btn9">
+          <a href="#"> VIEW NOW  </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="right9">
+      <div class="img9">
+        <img src="awesom.png" alt="">
+      </div>
+      <div class="book9">
+        <h4>MEN'S <br> LOOK BOOK</h4>
+        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
+        <div class="btn9">
+          <a href="#"> VIEW NOW  </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!--------------------------------------------------------footer ----------->
+
+<section class="sec-1">
+      <div class="whole-1">
+        <div class="col-1">
+          <div class="info">
+            <h4>INFORMATION</h4>
+            <ul>
+              <li>The brand</li>
+              <li>Local store</li>
+              <li>Costomers Services</li>
+              <li>Privacy & cookies</li>
+              <li>Site map</li>
+            </ul>
+          </div>
+
+          <div class="buy">
+            <h4>Why Buy From us</h4>
+            <ul>
+              <li>The brand</li>
+              <li>Local store</li>
+              <li>Costomers Services</li>
+              <li>Privacy & cookies</li>
+              <li>Site map</li>
+            </ul>
+          </div>
+
+          <div class="acc">
+            <h4>Your Account</h4>
+            <ul>
+              <li>The brand</li>
+              <li>Local store</li>
+              <li>Costomers Services</li>
+              <li>Privacy & cookies</li>
+              <li>Site map</li>
+            </ul>
+          </div>
+
+          <div class="look">
+            <h4>LookBook</h4>
+            <ul>
+              <li>The brand</li>
+              <li>Local store</li>
+              <li>Costomers Services</li>
+              <li>Privacy & cookies</li>
+              <li>Site map</li>
+            </ul>
+          </div>
+
+          <div class="cntct">
+            <h4>Contact Details</h4>
+            <ul style="line-height: 20pt; padding:0px" >
+              <li>Head Office:Avenu,Fasion<br>
+              180-181 Regent Street, London</li>
+              <li>Tel: 05234616</li>
+              <li>Email:zain@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="col-2">
+          <div class="award">
+            <h4>AWARD WINNER </h4>
+            <h5>FASION AWARD 2016</h5>
+          </div>
+
+          <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+</section>
+
   </body>
 </html>
